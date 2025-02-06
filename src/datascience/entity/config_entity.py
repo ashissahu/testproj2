@@ -1,9 +1,34 @@
-from dataclasses import dataclass
+
+
+# Importing the 'dataclass' decorator from the 'dataclasses' module  
+# This helps in creating a simple class to store data without writing boilerplate code  
+from dataclasses import dataclass  
+
+# Importing 'Path' from the 'pathlib' module  
+# 'Path' is used for handling filesystem paths in an object-oriented way  
 from pathlib import Path
 
-@dataclass
-class DataIngestionConfig:
-    root_dir: Path
-    source_URL: str
-    local_data_file: Path
-    unzip_dir: Path
+
+
+
+# Using the '@dataclass' decorator to automatically generate special methods  
+# like '__init__', '__repr__', and '__eq__' for the class  
+@dataclass  
+class DataIngestionConfig:  
+    # Root directory where all data-related files will be stored  
+    root_dir: Path  
+    # URL of the source data that needs to be downloaded  
+    source_URL: str  
+    # Local path where the downloaded data file will be stored  
+    local_data_file: Path  
+    # Directory where the extracted data will be stored after unzipping  
+    unzip_dir: Path  
+
+
+# Define a data class for storing data validation configuration  
+@dataclass  
+class DataValidationConfig:  
+    root_dir: Path  # The root directory where validation-related files are stored  
+    STATUS_FILE: str  # Path to the status file that tracks validation results  
+    unzip_data_dir: Path  # Directory where unzipped data is stored for validation  
+    all_schema: dict  # Dictionary containing schema definitions for validation  

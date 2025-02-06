@@ -10,11 +10,17 @@ class DataIngestionTrainingPipeline:
         pass
 
     def initiate_data_ingestion(self):
-        config=ConfigurationManager()
-        data_ingestion_config=config.get_data_ingestion_config()
-        data_ingestion=DataIngestion(config=data_ingestion_config)
-        data_ingestion.download_file()
-        data_ingestion.extract_zip_file()
+        # Creating an instance of ConfigurationManager to read configuration files  
+        config = ConfigurationManager()  
+        # Retrieving the data ingestion configuration settings  
+        data_ingestion_config = config.get_data_ingestion_config()  
+        # Creating an instance of DataIngestion with the retrieved configuration  
+        data_ingestion = DataIngestion(config=data_ingestion_config)  
+        # Downloading the data file from the source URL  
+        data_ingestion.download_file()  
+        # Extracting the contents of the downloaded ZIP file  
+        data_ingestion.extract_zip_file()  
+
 
 
 if __name__ == '__main__':

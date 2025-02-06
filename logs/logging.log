@@ -71,3 +71,206 @@ Source-Age: 0
 [2025-02-04 08:26:43,629: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-02-05 22:57:19,545: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-05 22:57:19,557: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-05 22:57:19,558: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-05 22:57:19,560: INFO: common: created directory at: artifacts]
+[2025-02-05 22:57:19,561: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-05 22:57:20,716: INFO: 2788082593: artifacts/data_ingestion/data.zip downloaded successfully! Details: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6EB2:68A25:136749:1B40C8:67A39F7D
+Accept-Ranges: bytes
+Date: Wed, 05 Feb 2025 17:27:25 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21725-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1738776445.300815,VS0,VE312
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 77d91aa6303546405b6dc08ca0b68debebbaf9af
+Expires: Wed, 05 Feb 2025 17:32:25 GMT
+Source-Age: 0
+
+]
+[2025-02-05 22:57:20,731: INFO: 2788082593: Files extracted successfully to artifacts/data_ingestion]
+[2025-02-05 23:40:52,393: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-05 23:40:52,409: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-05 23:40:52,409: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-05 23:40:52,409: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-05 23:40:52,409: INFO: common: created directory at: artifacts]
+[2025-02-05 23:40:52,409: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-05 23:40:53,477: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded successfully! Details: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6EB2:68A25:136749:1B40C8:67A39F7D
+Accept-Ranges: bytes
+Date: Wed, 05 Feb 2025 18:10:58 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21747-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1738779058.060094,VS0,VE329
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: bbdf83016f0394b93aaeb5bdfa78b22231c6670d
+Expires: Wed, 05 Feb 2025 18:15:58 GMT
+Source-Age: 0
+
+]
+[2025-02-05 23:40:53,477: INFO: data_ingestion: Files extracted successfully to artifacts/data_ingestion]
+[2025-02-05 23:40:53,477: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-02-06 21:49:22,842: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-06 21:49:22,845: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-06 21:49:22,845: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-06 21:49:22,845: INFO: common: created directory at: artifacts]
+[2025-02-06 21:49:22,851: INFO: common: created directory at: artifacts/data_validation]
+[2025-02-06 21:49:30,525: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-06 21:49:30,527: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-06 21:49:30,530: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-06 21:49:30,531: INFO: common: created directory at: artifacts]
+[2025-02-06 21:49:30,533: INFO: common: created directory at: artifacts/data_validation]
+[2025-02-06 21:49:51,793: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-06 21:49:51,795: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-06 21:49:51,798: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-06 21:49:51,799: INFO: common: created directory at: artifacts]
+[2025-02-06 21:49:51,799: INFO: common: created directory at: artifacts/data_validation]
+[2025-02-06 22:16:28,061: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-06 22:16:28,063: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-06 22:16:28,065: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-06 22:16:28,065: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-06 22:16:28,067: INFO: common: created directory at: artifacts]
+[2025-02-06 22:16:28,067: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\testproj2\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\testproj2\src\datascience\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-02-06 22:17:00,293: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-06 22:17:00,293: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-06 22:17:00,293: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-06 22:17:00,293: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-06 22:17:00,293: INFO: common: created directory at: artifacts]
+[2025-02-06 22:17:00,293: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\testproj2\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\testproj2\src\datascience\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-02-06 22:19:05,975: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-06 22:19:05,977: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-06 22:19:05,980: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-06 22:19:05,981: INFO: common: created directory at: artifacts]
+[2025-02-06 22:19:05,982: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-06 22:19:07,189: INFO: 2788082593: artifacts/data_ingestion/data.zip downloaded successfully! Details: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: A056:4DE64:2734A2:369E20:67A4E807
+Accept-Ranges: bytes
+Date: Thu, 06 Feb 2025 16:49:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21720-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1738860552.286058,VS0,VE335
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: bfc6eed1db73c939b9002fd25c47e9c452e40690
+Expires: Thu, 06 Feb 2025 16:54:12 GMT
+Source-Age: 0
+
+]
+[2025-02-06 22:19:07,194: INFO: 2788082593: Files extracted successfully to artifacts/data_ingestion]
+[2025-02-06 22:22:10,424: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-06 22:22:10,426: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-06 22:22:10,429: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-06 22:22:10,429: INFO: common: created directory at: artifacts]
+[2025-02-06 22:22:10,431: INFO: common: created directory at: artifacts/data_validation]
+[2025-02-06 22:22:26,965: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-06 22:22:26,981: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-06 22:22:26,981: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-06 22:22:26,981: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-06 22:22:26,981: INFO: common: created directory at: artifacts]
+[2025-02-06 22:22:26,981: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\testproj2\main.py", line 9, in <module>
+    data_ingestion.initiate_data_ingestion()
+  File "C:\testproj2\src\datascience\pipeline\data_ingestion_pipeline.py", line 16, in initiate_data_ingestion
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-02-06 22:24:26,064: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-06 22:24:26,064: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-06 22:24:26,064: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-06 22:24:26,064: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-06 22:24:26,064: INFO: common: created directory at: artifacts]
+[2025-02-06 22:24:26,064: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-06 22:24:26,064: INFO: data_ingestion: File already exists at artifacts/data_ingestion/data.zip]
+[2025-02-06 22:24:26,081: INFO: data_ingestion: Files extracted successfully to artifacts/data_ingestion]
+[2025-02-06 22:24:26,081: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-02-06 22:24:26,082: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-02-06 22:24:26,085: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-06 22:24:26,085: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-06 22:24:26,087: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-06 22:24:26,087: INFO: common: created directory at: artifacts]
+[2025-02-06 22:24:26,088: INFO: common: created directory at: artifacts/data_validation]
+[2025-02-06 22:24:26,088: ERROR: main: name 'DataValiadtion' is not defined]
+Traceback (most recent call last):
+  File "C:\testproj2\main.py", line 21, in <module>
+    data_ingestion.initiate_data_validation()
+  File "C:\testproj2\src\datascience\pipeline\data_validation_pipeline.py", line 14, in initiate_data_validation
+    data_validation = DataValiadtion(config=data_validation_config)
+NameError: name 'DataValiadtion' is not defined
+[2025-02-06 22:26:22,886: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-06 22:26:22,886: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-06 22:26:22,886: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-06 22:26:22,886: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-06 22:26:22,886: INFO: common: created directory at: artifacts]
+[2025-02-06 22:26:22,886: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-06 22:26:22,886: INFO: data_ingestion: File already exists at artifacts/data_ingestion/data.zip]
+[2025-02-06 22:26:22,886: INFO: data_ingestion: Files extracted successfully to artifacts/data_ingestion]
+[2025-02-06 22:26:22,886: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-02-06 22:26:22,886: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-02-06 22:26:22,886: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-06 22:26:22,886: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-06 22:26:22,903: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-02-06 22:26:22,903: INFO: common: created directory at: artifacts]
+[2025-02-06 22:26:22,904: INFO: common: created directory at: artifacts/data_validation]
+[2025-02-06 22:26:22,909: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
