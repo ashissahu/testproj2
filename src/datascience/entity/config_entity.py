@@ -32,3 +32,9 @@ class DataValidationConfig:
     STATUS_FILE: str  # Path to the status file that tracks validation results  
     unzip_data_dir: Path  # Directory where unzipped data is stored for validation  
     all_schema: dict  # Dictionary containing schema definitions for validation  
+
+
+@dataclass(frozen=True)
+class DataTransformationConfig:
+    root_dir: Path
+    data_path: Path
